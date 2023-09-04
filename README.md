@@ -10,3 +10,14 @@ For example, for [1, 2, 2] it should return 9 because 1^2 + 2^2 + 2^2 = 9
 
 -------------------------------------
 </details>
+
+<details close>
+<summary>  Average in List </summary>
+<br>
+
+Write a function which calculates the average of the numbers in a given list.
+
+Note: Empty arrays should return 0.
+
+-------------------------------------
+</details>
