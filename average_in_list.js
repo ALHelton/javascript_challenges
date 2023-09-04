@@ -16,15 +16,11 @@
 // 
 
 function averageInList(numbers) {
-  count = 0;
-  if (numbers.length === 0) {
-    return 0;
-  } else {
-    for (var i = 0; i < numbers.length; i++) {
-      count += numbers[i];
-    }
+  var count = 0
+  if (numbers.length === 0) {return 0}
+  for (var i = 0; i < numbers.length; i++) {
+    count += numbers[i];
   }
-
   return Math.round(count / numbers.length);
 }
 
@@ -39,3 +35,18 @@ console.log(averageInList([2, 4, 6, 8, 10]))
 
 console.log(averageInList([2, -4, 6, 8, -10]))
 // => 0
+
+
+// ------- SOLUTION ONE -------
+// function averageInList(numbers) {
+//   count = 0;
+//   if (numbers.length === 0) {
+//     return 0;
+//   } else {
+//     for (var i = 0; i < numbers.length; i++) {
+//       count += numbers[i];
+//     }
+//   }
+
+//   return Math.round(count / numbers.length);
+// }
