@@ -11,11 +11,11 @@
 // after looping operations
 
 function squareSum(numbers) {
-  var sum = 0
+  var sum = 0;
   for (var i = 0; i < numbers.length; i++) {
-    sum += (numbers[i] * numbers[i])
+    sum += (numbers[i] * numbers[i]);
   }
-  return sum
+  return sum;
 }
 
 console.log(squareSum([1, 2, 2]));
